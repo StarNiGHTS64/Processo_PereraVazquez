@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prōcessō Perera Vazquez</title>
+
+  <style>
+    * 
+    {
+        box-sizing: border-box;
+    }
+    body 
+    {
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;   }
+    nav
+    {
+      border: 1px solid black;
+        background-color: #1A393A;
+        width: 100%;
+        height: 110px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Helvetica;
+        
+      }
+    .equipo 
+    {
+      border: 1px solid black;
+        background-color: #868686;
+        width: 100%;
+        height: 900px;
+    }
+    .abogados
+    {
+      /*border: 1px solid black;*/
+      background-color: #F8F8F8;
+      width: 33.33%;
+      height: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      float: left;
+    }
+    .abogado
+    {
+      /*border: 1px solid black;*/
+      /*background-color: #686868;*/
+
+      border-radius: 100%; 
+      width: 380px;
+      height: 380px;
+      margin-top: 170px;
+      padding: 1px 1px;
+      filter: grayscale(100%);
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .abogado:hover
+    {
+      background-color:#DBB063;
+      filter: grayscale(0%);
+      border: 3px;
+      border-color: #DBB063;
+    }
+    .abogado:active
+    {
+      transform: translateY(10px);
+      outline: none;
+    }
+    .nombre
+    {
+      /*border: 1px solid black;*/
+      /*background-color: #686868;*/
+      width: 400px;
+      height: 120px;
+      font-family: Helvetica;
+      margin-top: 40px;
+      float: left;
+      color: #1A393A;
+      font-size: 46px;
+      font-weight: bold;
+      padding-left: 110px;
+      filter: grayscale(0%) !important;
+    }
+    #abogado1
+    {
+      margin-left: auto;
+    }
+    #nombre1
+    {
+     
+    }
+    #abogado2
+    {
+      margin-left:auto;
+      margin-right: auto;
+    }
+    #nombre2
+    {
+      
+    }
+    #abogado3
+    {
+      margin-right: auto;
+    }
+    #nombre3
+    {
+      
+    }
+    .yellow-line2
+    {
+      width: 18%;
+      border: 1px solid black;
+      border-color: #DBB063;
+      position: absolute;
+      top: 25px;
+      left: 4%;
+    }
+
+  </style>
+
+</head>
+<body>
+  <nav>
+    
+  </nav>
+  <div class="equipo">
+    <div class="abogados">
+      <div id="abogado1" class="abogado">
+        <img src="/img/PV_6.png" width="380px" height="380px">
+        <div id="nombre1" class="nombre">
+        <span class="yellow-line2"></span>
+        <span>Bernardo Perera</span>
+      </div>
+      </div>
+    </div>
+    <div class="abogados">
+      <div id="abogado2" class="abogado">
+        <img src="/img/PV_7.png" width="380px" height="380px">
+        <div class="nombre">
+        <span class="yellow-line2"></span>
+        <span>Luis&nbsp;Orlando Guzmán</span>
+      </div>
+      </div>
+    </div>
+    <div class="abogados">
+      <div id="abogado3" class="abogado">
+        <img src="/img/PV_8.png" width="380px" height="380px">
+        <div id="nombre3" class="nombre">
+        <span class="yellow-line2"></span>
+        <span>Arturo&nbsp;Javier Vázquez</span>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

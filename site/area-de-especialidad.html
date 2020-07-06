@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<title>Nuestro Equipo</title>
+<style>
+
+/********** Base styles **********4441950432*/
+* {
+  box-sizing: border-box;
+}
+body
+{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px; 
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+nav
+{
+  border: 1px solid black;
+  background-color: #1A393A;
+  width: 100%;
+  height: 110px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;  
+}
+
+#capital
+{
+  color: #DBB063;
+  font-weight: bold;
+  font-size: 52px;
+}
+.area-especialidad-header
+{
+  border: 1px solid black;
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 320px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.area-especialidad-header-left
+{
+  /*border: 1px solid black;*/
+  width: 42%;
+  height: 100%;
+  float: left;
+}
+.area-especialidad-header-right
+{
+  /*border: 1px solid black;*/
+  width: 58%;
+  height: 100%;
+  float: right;
+}
+.area-especialidad-header-left-text
+{
+  /*border: 1px solid black;*/
+  width: 245px;
+  color: #1A393A;
+  font-size: 42px;
+  font-weight: bold;
+  position: absolute;
+  top: 150px;
+  left: 240px;
+  line-height: 45px;
+
+}
+.area-especialidad-header-right-text
+{
+  font-size: 22px;
+  position: absolute;
+  top: 120px;
+}
+.area-especialidad-carrusel
+{
+  /*border: 1px solid black;*/
+  background-color: #1A393A;
+  width: 100%;
+  height: 480px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.area-especialidad-group
+{
+  /*border: 1px solid black;*/
+  width: 405px;
+  height: 375px;
+  
+  margin-top: 70px;
+}
+#g1
+{
+  float: left;
+  margin-left: 15%;
+}
+#g2
+{
+  float: right;
+  margin-right: 120px;
+}
+.area-especialidad-categories
+{
+  width: 100%;
+  height: 480px;
+  background-image: url(PV_5.jpg);
+  background-repeat: repeat;
+  background-size: auto; 
+}
+.area-especialidad-category
+{
+  border-bottom: 1px solid black;
+  border-color: #DBB063;
+  margin-bottom: 10px;
+  height: 85px;
+  width: 400px;
+}
+#end-category
+{
+  border: none;
+}
+.area-especialidad-category-name
+{
+  position: relative;
+  top: 20px;
+  left: 92px;
+  font-size: 32px;
+  font-style: italic;
+  color: #F8F8F8;
+}
+#details-name
+{
+  /*border: 1px solid black;*/
+  font-size: 38px;
+  top: 0px;
+  left: 92px;
+}
+.area-especialidad-category-button
+{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #DBB063;
+  border-radius: 100%;
+  transition: 0.5s;
+  opacity: 1;
+}
+.area-especialidad-category-button:hover
+{
+  opacity: 0.8;
+}
+.area-especialidad-category-button:active
+{
+  opacity: 0.8;
+  transform: translateY(4px);
+}
+#category-button1
+{
+
+}
+#category-button2
+{
+  
+}
+#category-button3
+{
+  
+}
+#category-button4
+{
+  
+}
+#category-button5
+{
+  
+}
+#category-button6
+{
+  
+}
+#category-button7
+{
+  
+}
+#category-button8
+{
+  
+}
+.area-especialidad-details-header
+{
+  /*border: 1px solid black;*/
+  height: 110px; 
+  width: 300px;
+  position: absolute;
+  top: 105px;
+  left: 5%;
+}
+.area-especialidad-details-group
+{
+  /*border: 1px solid black;*/
+  height: 300px;
+  width: 70%;
+  position: absolute;
+  top: 100px;
+  left: 33%;
+}
+.area-especialidad-details
+{
+  /*border: 1px solid black;*/
+  width: auto;
+  height: 40px;
+  margin-top: 15px;
+}
+.area-especialidad-details-dot
+{
+  height: 20px;
+  width: 20px;
+  background-color: #DBB063;
+  border-radius: 100%;
+  float: left;
+  position: relative;
+  top: 25%;
+  margin-right: 6px;
+}
+.area-especialidad-details-text
+{
+  font-size: 30px;
+  color: #F8F8F8; 
+  float: left;
+}
+.yellow-line-a1
+{
+  width: 16%;
+  border-bottom: 2px solid black;
+  border-color: #DBB063;
+  position: absolute;
+  top: 170px;
+}
+.yellow-line-a2
+{
+  width: 12%;
+  border-bottom: 2px solid black;
+  border-color: #DBB063;
+  position: absolute;
+  top: 100px;
+}
+</style>
+</head>
+<body>
+  <div class="area-especialidad-header">
+    <span class="yellow-line-a1"></span>
+    <div class="area-especialidad-header-left">
+        <span class="area-especialidad-header-left-text">Áreas de especialidad</span>
+    </div>
+    <div class="area-especialidad-header-right">
+      <div>
+        <span class="area-especialidad-header-right-text"><span id="capital">E</span>n Perera Vázquez Bussiness & Law estamos especializados en diversas áreas que van de acuerdo a la necesidad inmediata del cliente.Ofrecemos los siguientes servicios.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="area-especialidad-carrusel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
+
+      <!--<ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+      </ol>-->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <span class="yellow-line-a2"></span>
+          <div class="area-especialidad-carrusel">
+            <div id="g1" class="area-especialidad-group">
+              <div class="area-especialidad-category">
+
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="1">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Propiedad Intelectual
+                </div>
+              </div>
+              <div class="area-especialidad-category">
+                <div id="category-button2" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="2">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Derecho Contractual
+                </div>
+              </div>
+              <div class="area-especialidad-category">
+                <div id="category-button3" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="3">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Litijio
+                </div>
+              </div>
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button4" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="4">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Corporativo
+                </div>
+              </div>
+            </div>
+
+            <div id="g2" class="area-especialidad-group">
+              <div class="area-especialidad-category">
+
+                <div id="category-button5" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="5">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Financiero
+                </div>
+              </div>
+              <div class="area-especialidad-category">
+                <div id="category-button6" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="6">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Administrativo
+                </div>
+              </div>
+              <div class="area-especialidad-category">
+                <div id="category-button7" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="7">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Cumplimiento
+                </div>
+              </div>
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button8" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="8">
+                </div>
+                <div class="area-especialidad-category-name">
+                  Fiscal
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Propiedad<br>Intelectual
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Derecho<br>Contractual
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+            
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Litijio
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+            
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Corporativo
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+            
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Financiero
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+            
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Administrativo
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+            
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Cumplimiento
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="area-especialidad-categories">
+            
+            <div class="area-especialidad-details-header">
+              <div id="end-category" class="area-especialidad-category">
+                <div id="category-button1" class="area-especialidad-category-button" data-target="#carouselExampleIndicators" data-slide-to="0">
+                </div>
+                <div id="details-name" class="area-especialidad-category-name">
+                  Fiscal
+                </div>
+              </div>
+            </div>
+
+            <div class="area-especialidad-details-group">
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Registro de Obra Artística</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de registro de Marca, Nombre y Aviso Comercial </span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Solicitud de Patente y Modelo de Utilidad</span>
+              </div>
+
+              <div class="area-especialidad-details">
+                <div class="area-especialidad-details-dot">
+                  
+                </div>
+                <span class="area-especialidad-details-text">Cesión y Licenciamiento de Derechos al uso exclusivo</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--- JavaScript -->
+  <script>
+    $('.carousel').carousel({
+      pause: true,
+      interval: false
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
