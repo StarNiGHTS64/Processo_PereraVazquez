@@ -2,8 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="/bootstrap.min.css">
 
 <title>Nuestro Equipo</title>
 <style>
@@ -14,9 +13,10 @@
 }
 body
 {
+  width: 1200px;
   margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0px; 
 }
 
@@ -54,7 +54,7 @@ nav
 }
 .area-especialidad-header
 {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background-color: #F8F8F8;
   width: 100%;
   height: 320px;
@@ -83,16 +83,16 @@ nav
   color: #1A393A;
   font-size: 42px;
   font-weight: bold;
-  position: absolute;
-  top: 150px;
-  left: 240px;
+  position: relative;
+  top: 140px;
+  left: 170px;
   line-height: 45px;
 
 }
 .area-especialidad-header-right-text
 {
   font-size: 22px;
-  position: absolute;
+  position: relative;
   top: 120px;
 }
 .area-especialidad-carrusel
@@ -253,7 +253,7 @@ nav
 }
 .yellow-line-a1
 {
-  width: 16%;
+  width: 140px;
   border-bottom: 2px solid black;
   border-color: #DBB063;
   position: absolute;
@@ -273,7 +273,7 @@ nav
   <div class="area-especialidad-header">
     <span class="yellow-line-a1"></span>
     <div class="area-especialidad-header-left">
-        <span class="area-especialidad-header-left-text">Áreas de especialidad</span>
+        <span class="area-especialidad-header-left-text">Áreas de<br>especialidad</span>
     </div>
     <div class="area-especialidad-header-right">
       <div>
@@ -748,9 +748,9 @@ nav
     });
   </script>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="/jquery-3.5.1.slim.min.js"></script>
+  <script src="/popper.min.js"></script>
+  <script src="/bootstrap.min.js"></script>
 
 </body>
 </html>
