@@ -1,0 +1,170 @@
+/**************Scroll***********/
+::-webkit-scrollbar {
+   	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+     
+/* Handle */
+::-webkit-scrollbar-thumb {
+  	background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+@font-face {
+	font-family: futuraBook;
+	src: url(img/Futura Book.otf);
+}
+* 
+{
+	box-sizing: border-box;
+}
+
+body 
+{
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;   
+}
+
+.nuestro-equipo-alpha
+{
+  height: 100%;
+  width: 33.33%;
+  background-color: #F8F8F8;
+  float: left;
+}
+.nuestro-equipo-alpha-abogado
+{
+  height: 360px;
+  width: 360px;
+  margin-top: 42%;
+  border: 2px;
+  border-color: #F8F8F8;
+  border-radius: 100%; 
+  background-color: #F8F8F8;
+  background-image: url(img/PV_6.png);
+  background-size: 100% 100%;
+  float: right;
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+.nuestro-equipo-alpha-abogado:hover
+{
+  filter: grayscale(20%);
+}
+.nuestro-equipo-alpha-abogado:active
+{
+  filter: grayscale(0%);
+}
+.nuestro-equipo-alpha-line
+{
+  height: 100px;
+  width: 118px;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+}
+.nuestro-equipo-alpha-nombre
+{
+  height: 100px;
+  width: 280px;
+  background-color: #F8F8F8;
+  float: right;
+}
+.nuestro-equipo-beta
+{
+  height: 100%;
+  width: 33.33%;
+  background-color: #F8F8F8;
+  float: left;
+}
+.nuestro-equipo-beta-abogado
+{
+  height: 360px;
+  width: 360px;
+  margin-top: 42%;
+  margin-left: 5%;
+  border: 2px;
+  border-color: #F8F8F8;
+  border-radius: 100%; 
+  background-color: #F8F8F8;
+  background-image: url(img/PV_7.png);
+  background-size: 100% 100%;
+  float: left;
+}
+.nuestro-equipo-beta-line
+{
+  height: 100px;
+  width: 118px;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.nuestro-equipo-beta-nombre
+{
+  height: 100px;
+  width: 280px;
+  background-color: #F8F8F8;
+  float: left;
+}
+.nuestro-equipo-epsilon
+{
+  height: 100%;
+  width: 33.33%;
+  background-color: #F8F8F8;
+  float: left;
+}
+.nuestro-equipo-epsilon-abogado
+{
+  height: 360px;
+  width: 360px;
+  margin-top: 42%;
+  border: 2px;
+  border-color: #F8F8F8;
+  border-radius: 100%; 
+  background-color: #F8F8F8;
+  background-image: url(img/PV_8.png);
+  background-size: 100% 100%;
+  float: left;
+}
+.nuestro-equipo-epsilon-line
+{
+  height: 100px;
+  width: 118px;
+  background-color: #F8F8F8;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.nuestro-equipo-epsilon-nombre
+{
+  height: 100px;
+  width: 280px;
+  background-color: #F8F8F8;
+  float: left;
+}
+.nuestro-equipo-linea-linea
+{
+  width: 100%;
+  border-top: 2px solid black;
+  border-color: #DBB063;
+  margin-top: 25%;
+}
+.nuestro-equipo-nombre-texto
+{
+  margin-left: 2%;
+  line-height: 48px;
+  font-size: 48px;
+  font-family: futuraBook;
+}
