@@ -68,7 +68,18 @@ body
     line-height: 42px;
     font-weight: bold;
   }
-
+  .phone
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
+  .phone:active
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
   .boton
   {
     height: 55px;
@@ -199,7 +210,18 @@ body
     line-height: 42px;
     font-weight: bold;
   }
-
+  .phone
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
+  .phone:active
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
   .boton
   {
     height: 55px;
@@ -330,7 +352,18 @@ body
     line-height: 42px;
     font-weight: bold;
   }
-
+  .phone
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
+  .phone:active
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
   .boton
   {
     height: 55px;
@@ -460,7 +493,18 @@ body
     line-height: 40px;
     font-weight: bold;
   }
-
+  .phone
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
+  .phone:active
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
   .boton
   {
     height: 55px;
@@ -584,7 +628,18 @@ body
     font-weight: bold;
 
   }
-
+  .phone
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
+  .phone:active
+  {
+    font-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
   .contacto-info-agendar
   {
     font-family: futuraBook;
@@ -592,7 +647,6 @@ body
     line-height: 28px;
     font-weight: bold;
   }
-
   .boton
   {
     height: 48px;
