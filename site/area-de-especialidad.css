@@ -1,0 +1,117 @@
+/**************Scroll***********/
+::-webkit-scrollbar {
+   	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+     
+/* Handle */
+::-webkit-scrollbar-thumb {
+  	background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+@font-face {
+	font-family: futuraBook;
+	src: url(img/Futura Book.otf);
+}
+* 
+{
+	box-sizing: border-box;
+}
+
+body 
+{
+    height: 100vh;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;   
+}
+.area-linea
+{
+  height: 37%;
+  width: 19%;
+  background-color: #F8F8F8;
+  padding-top: 14%;
+  padding-right: 3%;
+  float: left;
+}
+.area-linea-linea
+{
+  border-top: 2px solid black;
+  border-color: #DBB063;
+  width: 100%;
+}
+.area-titulo
+{
+  height: 37%;
+  width: 25%;
+  background-color: #F8F8F8;
+  padding-top: 12%;
+  font-family: futuraBook;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 52px;
+  color: #1A393A;
+  float: left;
+}
+.capital
+{
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 26px;
+  font-family: futuraBook;
+  color: #DBB063;
+}
+.area-texto
+{
+  height: 37%;
+  width: 56%;
+  background-color: #F8F8F8;
+  padding-top: 12%;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 24px;
+  float: left;
+}
+.area-carrusel
+{
+  height: 63%;
+  width: 100%;
+  background-color: #AAAAAA;
+  float: left;
+}
+.area-carrusel-linea
+{
+  height: 63vh;
+  width: 16%;
+  background-color: #1A393A;
+  float: left;
+  padding-top: 7%;
+  padding-right: 4%;
+}
+.area-carrusel-linea-linea
+{
+  width: 100%;
+  border-top: 2px solid black;
+  border-color: #DBB063;
+  padding-top: 10%;
+}
+.area-carrusel-main
+{
+  height: 63vh;
+  width: 84%;
+  background-color: #1A393A;
+  float: left;
+}
+.area-carrusel-categoria
+{
+
+}
