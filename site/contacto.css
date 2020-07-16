@@ -74,6 +74,12 @@ body
     text-decoration: none;
     color: #1A393A;
   }
+  .phone:hover
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
   .phone:active
   {
     font-style: none;
@@ -228,6 +234,12 @@ body
     text-decoration: none;
     color: #1A393A;
   }
+  .phone:hover
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
   .phone:visited
   {
     font-style: none;
@@ -376,6 +388,12 @@ body
     text-decoration: none;
     color: #1A393A;
   }
+  .phone:hover
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
   .phone:visited
   {
     font-style: none;
@@ -512,6 +530,12 @@ body
     font-weight: bold;
   }
   .phone
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
+  .phone:hover
   {
     font-style: none;
     text-decoration: none;
@@ -659,6 +683,12 @@ body
     color: #1A393A;
   }
   .phone:active
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
+  .phone:hover
   {
     font-style: none;
     text-decoration: none;
