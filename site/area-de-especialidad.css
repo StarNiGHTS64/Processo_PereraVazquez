@@ -34,6 +34,541 @@ body
     margin-right: 0px;
     margin-bottom: 0px;   
 }
+
+/***********NAVBAR**********/
+.nav-container
+{
+  width: 100%;
+  margin: 0px;
+  position: absolute;
+  z-index: 1;
+}
+/*********Desktop*********/
+@media (min-width: 1832px)
+  {
+  .nav-logo
+  {
+    height: 180px;
+    width: 180px;
+    background-image: url(img/PV_Logo.jpg);
+    background-size: 100% 100%; 
+    margin-left: 58px;
+    float: left;
+  }
+  .nav-contenido
+  {
+    height: 180px;
+    width: 87%;
+    float: left;
+  }
+  .nav-contenido-upper
+  {
+    border-bottom: 1px solid;
+    border-color: #1A393A;
+    height: 71px;
+    width: 100%;
+    padding-top: 0px;
+  }
+  .nav-contenido-lower
+  {
+    height: 109px;
+    width: 100%;
+  }
+  .nav-name
+  {
+    height: 5px;
+    width: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: futuraBook;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1A393A;
+  }
+  .nav-social
+  {
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    position: relative;
+    top:-10px;
+    float: right;
+    background-color: #00AAAA;
+    transition: 0.3s;
+  }
+  .nav-social:hover
+  {
+    background-color: #1A393A;
+  }
+  .nav-number
+  {
+    /*border: 1px solid black;*/
+    height: 80px;
+    width: 245px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 42px;
+    font-family: futuraBook;
+    font-weight: bold;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones
+  { 
+    /*border: 1px solid black;*/
+    height: 80px;
+    width: 130px;
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones:hover > .nav-select-1 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-secciones:hover > .nav-select-2 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-select-1
+  {
+    position: relative;
+    top: -65px;
+    height: 6px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .nav-select-2
+  {
+    position: relative;
+    top: -101px;
+    height: 6px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .nav-select-select
+  {
+    height: 8px;
+    width: 100%;
+    transition: 0.6s;
+  }
+}
+/*********Desktop*********/
+@media (min-width: 1440px) and (max-width: 1831px)
+  {
+  .nav-logo
+  {
+    height: 180px;
+    width: 180px;
+    background-image: url(img/PV_Logo.jpg);
+    background-size: 100% 100%; 
+    margin-left: 58px;
+    float: left;
+  }
+  .nav-contenido
+  {
+    height: 180px;
+    width: 82%;
+    float: left;
+  }
+  .nav-contenido-upper
+  {
+    border-bottom: 1px solid;
+    border-color: #1A393A;
+    height: 71px;
+    width: 100%;
+    padding-top: 0px;
+  }
+  .nav-contenido-lower
+  {
+    height: 109px;
+    width: 100%;
+  }
+  .nav-name
+  {
+    height: 5px;
+    width: 600px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: futuraBook;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1A393A;
+  }
+  .nav-social
+  {
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    position: relative;
+    top:-10px;
+    float: right;
+    background-color: #00AAAA;
+    transition: 0.3s;
+  }
+  .nav-social:hover
+  {
+    background-color: #1A393A;
+  }
+  .nav-number
+  {
+    /*border: 1px solid black;*/
+    height: 80px;
+    width: 245px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 42px;
+    font-family: futuraBook;
+    font-weight: bold;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones
+  { 
+    /*border: 1px solid black;*/
+    height: 80px;
+    width: 130px;
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones:hover > .nav-select-1 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-secciones:hover > .nav-select-2 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-select-1
+  {
+    position: relative;
+    top: -65px;
+    height: 6px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .nav-select-2
+  {
+    position: relative;
+    top: -101px;
+    height: 6px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .nav-select-select
+  {
+    height: 8px;
+    width: 100%;
+    transition: 0.6s;
+  }
+}
+/*********Desktop*********/
+@media (min-width: 1200px) and (max-width: 1439px)
+  {
+  .nav-logo
+  {
+    height: 140px;
+    width: 140px;
+    background-image: url(img/PV_Logo.jpg);
+    background-size: 100% 100%; 
+    margin-left: 58px;
+    float: left;
+  }
+  .nav-contenido
+  {
+    height: 180px;
+    width: 82%;
+    float: left;
+  }
+  .nav-contenido-upper
+  {
+    border-bottom: 1px solid;
+    border-color: #1A393A;
+    height: 55px;
+    width: 100%;
+    padding-top: 0px;
+  }
+  .nav-contenido-lower
+  {
+    height: 95px;
+    width: 100%;
+  }
+  .nav-name
+  {
+    height: 5px;
+    width: 600px;
+    padding-top: 18px;
+    padding-left: 18px;
+    font-family: futuraBook;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1A393A;
+  }
+  .nav-social
+  {
+    height: 35px;
+    width: 35px;
+    margin-left: 25px;
+    position: relative;
+    top:-10px;
+    float: right;
+    background-color: #00AAAA;
+    transition: 0.3s;
+  }
+  .nav-social:hover
+  {
+    background-color: #1A393A;
+  }
+  .nav-number
+  {
+    /*border: 1px solid black;*/
+    height: 80px;
+    width: 190px;
+    padding-top: 2px;
+    padding-right: 10px;
+    font-size: 32px;
+    font-family: futuraBook;
+    font-weight: bold;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones
+  { 
+    /*border: 1px solid black;*/
+    height: 80px;
+    width: 100px;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones:hover > .nav-select-1 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-secciones:hover > .nav-select-2 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-select-1
+  {
+    position: relative;
+    top: -43px;
+    height: 6px;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .nav-select-2
+  {
+    position: relative;
+    top: -70px;
+    height: 6px;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .nav-select-select
+  {
+    height: 5px;
+    width: 100%;
+    transition: 0.6s;
+  }
+}
+/*********Laptop*********/
+@media (min-width: 992px) and (max-width: 1199px)
+  {
+  .nav-logo
+  {
+    height: 140px;
+    width: 140px;
+    background-image: url(img/PV_Logo.jpg);
+    background-size: 100% 100%; 
+    margin-left: 58px;
+    float: left;
+  }
+  .nav-contenido
+  {
+    height: 180px;
+    width: 80%;
+    float: left;
+  }
+  .nav-contenido-upper
+  {
+    border-bottom: 1px solid;
+    border-color: #1A393A;
+    height: 55px;
+    width: 100%;
+    padding-top: 0px;
+  }
+  .nav-contenido-lower
+  {
+    height: 95px;
+    width: 100%;
+  }
+  .nav-name
+  {
+    height: 5px;
+    width: 600px;
+    padding-top: 20px;
+    padding-left: 18px;
+    font-family: futuraBook;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1A393A;
+  }
+  .nav-social
+  {
+    height: 35px;
+    width: 35px;
+    margin-left: 25px;
+    position: relative;
+    top:-10px;
+    float: right;
+    background-color: #00AAAA;
+    transition: 0.3s;
+  }
+  .nav-social:hover
+  {
+    background-color: #1A393A;
+  }
+  .nav-number
+  {
+    /*border: 1px solid black;*/
+    height: 80px;
+    width: 165px;
+    padding-top: 2px;
+    padding-right: 10px;
+    font-size: 28px;
+    font-family: futuraBook;
+    font-weight: bold;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones
+  { 
+    /*border: 1px solid black;*/
+    height: 40px;
+    width: 70px;
+    padding-top: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Helvetica;
+    color: #1A393A;
+    float: right;
+  }
+  .nav-secciones:hover > .nav-select-1 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-secciones:hover > .nav-select-2 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-select-1
+  {
+    position: relative;
+    top: -31px;
+    height: 6px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .nav-select-2
+  {
+    position: relative;
+    top: -50px;
+    height: 6px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .nav-select-select
+  {
+    height: 5px;
+    width: 100%;
+    transition: 0.6s;
+  }
+}
+/*********N/A*********/
+@media(max-width: 991px)
+  {
+  .nav-logo
+  {
+    display: none;
+  }
+  .nav-contenido
+  {
+    display: none;
+  }
+  .nav-contenido-upper
+  {
+    display: none;
+  }
+  .nav-contenido-lower
+  {
+    display: none;
+  }
+  .nav-name
+  {
+    display: none;
+  }
+  .nav-social
+  {
+    display: none;
+  }
+  .nav-social:hover
+  {
+    display: none;  }
+  .nav-number
+  {
+    display: none;
+  }
+  .nav-secciones
+  { 
+    display: none;
+  }
+  .nav-secciones:hover > .nav-select-1 > .nav-select-select
+  {
+    display: none;
+  }
+  .nav-secciones:hover > .nav-select-2 > .nav-select-select
+  {
+    display: none;
+  }
+  .nav-select-1
+  {
+    display: none;
+  }
+  .nav-select-2
+  {
+    display: none;
+  }
+  .nav-select-select
+  {
+    display: none;
+  }
+}
+/*******************************/
+
 .area-linea
 {
   height: 37%;
