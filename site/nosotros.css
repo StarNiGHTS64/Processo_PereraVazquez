@@ -36,6 +36,54 @@ body
     margin-bottom: 0px;   
 }
 
+.nav-secciones
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
+.nav-secciones:hover
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
+.nav-secciones:active
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
+.nav-secciones:visited
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
+.phone
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
+.phone:hover
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
+.phone:active
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
+.phone:visited
+{
+  font-style: none;
+  text-decoration: none;
+  color: #1A393A;
+}
 /***********NAVBAR**********/
 .nav-container
 {
@@ -138,7 +186,7 @@ body
   .nav-select-1
   {
     position: relative;
-    top: -57px;
+    top: -65px;
     height: 6px;
     width: 100%;
     padding-left: 35px;
@@ -147,7 +195,7 @@ body
   .nav-select-2
   {
     position: relative;
-    top: -85px;
+    top: -101px;
     height: 6px;
     width: 100%;
     padding-left: 35px;
@@ -254,7 +302,7 @@ body
   .nav-select-1
   {
     position: relative;
-    top: -57px;
+    top: -65px;
     height: 6px;
     width: 100%;
     padding-left: 35px;
@@ -263,7 +311,7 @@ body
   .nav-select-2
   {
     position: relative;
-    top: -85px;
+    top: -101px;
     height: 6px;
     width: 100%;
     padding-left: 35px;
@@ -370,7 +418,7 @@ body
   .nav-select-1
   {
     position: relative;
-    top: -37px;
+    top: -43px;
     height: 6px;
     width: 100%;
     padding-left: 22px;
@@ -379,7 +427,7 @@ body
   .nav-select-2
   {
     position: relative;
-    top: -58px;
+    top: -70px;
     height: 6px;
     width: 100%;
     padding-left: 22px;
@@ -487,7 +535,7 @@ body
   .nav-select-1
   {
     position: relative;
-    top: -27px;
+    top: -31px;
     height: 6px;
     width: 100%;
     padding-left: 16px;
@@ -496,7 +544,7 @@ body
   .nav-select-2
   {
     position: relative;
-    top: -42px;
+    top: -50px;
     height: 6px;
     width: 100%;
     padding-left: 16px;

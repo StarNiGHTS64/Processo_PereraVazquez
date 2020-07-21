@@ -35,6 +35,54 @@ body
     margin-right: 0px;
     margin-bottom: 0px;   
 }
+.nav-secciones
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+.nav-secciones:hover
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+.nav-secciones:active
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+.nav-secciones:visited
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+.phone
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+.phone:hover
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+.phone:active
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
+.phone:visited
+{
+  font-style: none;
+  text-decoration: none;
+  color: #F8F8F8;
+}
 /***********NAVBAR**********/
 .nav-container
 {
