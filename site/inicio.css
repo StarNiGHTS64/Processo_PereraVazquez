@@ -134,6 +134,14 @@ body
   {
     background-color: #DBB063;
   }
+  .nav-secciones:active > .nav-select-1 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
+  .nav-secciones:active > .nav-select-2 > .nav-select-select
+  {
+    background-color: #DBB063;
+  }
   .nav-select-1
   {
     position: relative;
