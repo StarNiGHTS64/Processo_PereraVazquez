@@ -286,7 +286,7 @@
     font-weight: bold;
     color: #F8F8F8;
   }
-  .nav-social
+  .nav-social-twitter
   {
     height: 50px;
     width: 50px;
@@ -294,12 +294,77 @@
     position: relative;
     top:-10px;
     float: right;
-    background-color: #00AAAA;
-    transition: 0.3s;
+    border-radius: 100%;
+    background-image: url(../img/twitter-xxl.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
   }
-  .nav-social:hover
+  .nav-social-twitter:hover
   {
-    background-color: #1A393A;
+    background-color: #F8F8F8;
+    background-image: url(../img/twitter-xxl2.png);
+  }
+  .nav-social-facebook
+  {
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    position: relative;
+    top:-10px;
+    float: right;
+    border-radius: 100%;
+    background-image: url(../img/facebook-xxl.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+  }
+  .nav-social-facebook:hover
+  {
+    background-color: #F8F8F8;
+    background-image: url(../img/facebook-xxl2.png);
+  }
+  .nav-social-instagram
+  {
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    position: relative;
+    top:-10px;
+    float: right;
+    border-radius: 100%;
+    background-image: url(../img/instagram-xxl.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+  }
+  .nav-social-instagram:hover
+  {
+    background-color: #F8F8F8;
+    background-image: url(../img/instagram-xxl2.png);
+  }
+  .nav-social-linkedin
+  {
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    position: relative;
+    top:-10px;
+    float: right;
+    border-radius: 100%;
+    background-image: url(../img/linkedin-6-xxl.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+  }
+  .nav-social-linkedin:hover
+  {
+    background-color: #F8F8F8;
+    background-image: url(../img/linkedin-6-xxl2.png);
   }
   .nav-number
   {
