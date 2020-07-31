@@ -1,0 +1,367 @@
+/**************Scroll***********/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+     
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+@font-face {
+  font-family: futuraBook;
+  src: url(img/Futura Book.otf);
+}
+* 
+{
+  box-sizing: border-box;
+}
+
+/*********Desktop*********/
+@media (min-width: 1440px)
+{
+  .nuestro-abogado
+  {
+    height: 1000px;
+    width: 33.33%;
+    background-color: #F8F8F8;
+    float: left;
+    padding-top: 16%;
+  }
+  .nuestro-abogado-contenido
+  {
+    height: 200px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .nuestro-abogado-imagen-b
+  {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_6.png);
+    transition: 0.5s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-b:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-b:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-imagen-l
+  {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_7.png);
+    transition: 0.5s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-l:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-l:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-imagen-a
+  {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_8.png);
+    transition: 0.5s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-a:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-a:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-info
+  {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .nuestro-abogado-linea
+  {
+    width: 25%;
+    float: left;
+    padding-top: 18px;
+    padding-right: 10px;
+    padding-left: 0px;
+
+  }
+  .nuestro-abogado-linea-linea
+  {
+    border-top: 2px solid black;
+    border-color: #DBB063;
+    
+  }
+  .nuestro-abogado-nombre
+  {
+    width: 75%;
+    font-size: 50px;
+    line-height: 46px;
+    font-weight: bold;
+    font-family: futuraBook;
+    color: #1A393A;
+    float: left;
+  }
+}
+/*********Desktop*********/
+@media (min-width: 1200px) and (max-width: 1439px)
+{
+  .nuestro-abogado
+  {
+    height: 900px;
+    width: 33.33%;
+    background-color: #F8F8F8;
+    float: left;
+    padding-top: 240px;
+  }
+  .nuestro-abogado-contenido
+  {
+    height: 200px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .nuestro-abogado-imagen-b
+  {
+    height: 340px;
+    width: 340px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_6.png);
+    transition: 0.3s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-b:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-b:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-imagen-l
+  {
+    height: 340px;
+    width: 340px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_7.png);
+    transition: 0.3s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-l:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-l:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-imagen-a
+  {
+    height: 340px;
+    width: 340px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_8.png);
+    transition: 0.3s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-a:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-a:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-info
+  {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .nuestro-abogado-linea
+  {
+    width: 25%;
+    float: left;
+    padding-top: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+  }
+  .nuestro-abogado-linea-linea
+  {
+    border-top: 2px solid black;
+    border-color: #DBB063;
+    
+  }
+  .nuestro-abogado-nombre
+  {
+    width: 75%;
+    font-size: 46px;
+    line-height: 42px;
+    font-weight: bold;
+    font-family: futuraBook;
+    color: #1A393A;
+    float: left;
+  }
+}
+/*********Laptop*********/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+  .nuestro-abogado
+  {
+    height: 700px;
+    width: 33.33%;
+    background-color: #F8F8F8;
+    float: left;
+    padding-top: 20%;
+  }
+  .nuestro-abogado-contenido
+  {
+    height: 200px;
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .nuestro-abogado-imagen-b
+  {
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_6.png);
+    transition: 0.3s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-b:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-b:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-imagen-l
+  {
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_7.png);
+    transition: 0.3s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-l:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-l:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-imagen-a
+  {
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    background-image: url(../img/PV_8.png);
+    transition: 0.3s;
+    filter: grayscale(100%);
+  }
+  .nuestro-abogado-imagen-a:hover
+  { 
+    border: 3px solid black;
+    background-color: #DBB063;
+    filter: grayscale(20%);
+    border-color: #DBB063;
+  }
+  .nuestro-abogado-imagen-a:active
+  {
+    filter: grayscale(0%);
+  }
+  .nuestro-abogado-info
+  {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .nuestro-abogado-linea
+  {
+    width: 25%;
+    float: left;
+    padding-top: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+  }
+  .nuestro-abogado-linea-linea
+  {
+    border-top: 2px solid black;
+    border-color: #DBB063;
+    
+  }
+  .nuestro-abogado-nombre
+  {
+    width: 75%;
+    font-size: 38px;
+    line-height: 34px;
+    font-weight: bold;
+    font-family: futuraBook;
+    color: #1A393A;
+    float: left;
+  }
+}

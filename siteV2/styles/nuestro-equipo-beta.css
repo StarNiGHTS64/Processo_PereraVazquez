@@ -1,0 +1,516 @@
+/**************Scroll***********/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+     
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+@font-face {
+  font-family: futuraBook;
+  src: url(img/Futura Book.otf);
+}
+* 
+{
+  box-sizing: border-box;
+}
+@media (min-width: 1560px)
+{
+	.nuestro-equipo-abogado-mobile
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado-mobile-imagen
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado-linea
+	{
+		display: none; 
+	}
+	.nuestro-equipo-abogado-linea-linea
+	{
+		display: none;
+	}
+	.nombre-mobile
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado-b
+	{
+		height: 1080px;
+		width: 38%;
+		background-image: url(../img/PV_2.jpg);
+		background-size: 100% 100%;
+		float: left; 
+		background-color: #555;
+	}
+	.nuestro-equipo-abogado-l
+	{
+		height: 1080px;
+		width: 38%;
+		background-image: url(../img/PV_3.jpg);
+		background-size: 100% 100%;
+		float: left; 
+		background-color: #555;
+	}
+	.nuestro-equipo-abogado-a
+	{
+		height: 1080px;
+		width: 38%;
+		background-image: url(../img/PV_4.jpg);
+		background-size: 100% 100%;
+		float: left; 
+		background-color: #555;
+	}
+
+	.nuestro-equipo-controladores
+	{
+		height: 1080px;
+		width: 27%;
+		float: left;
+		background-color: #F8F8F8;
+		padding-top: 80px;
+	}
+
+	.nuestro-equipo-controladores-linea
+	{
+		height: 100%;
+		width: 30%;
+		float: left;
+		padding-top: 35%;
+		padding-left: 5%; 
+		background-color: #F8F8F8 
+	}
+
+	.nuestro-equipo-controladores-linea-linea
+	{
+		width: 100%;
+		border-top: 2px solid black;
+		border-color: #DBB063;
+	}
+
+	.nuestro-equipo-controladores-controles
+	{
+		height: 100%;
+		width: 70%;
+		float: left;
+		background-color: #F8F8F8 
+	}
+
+	.nombre
+	{
+		margin-top: 37%;
+		padding-left: 8%;
+		line-height: 48px;
+		font-family: futuraBook;
+		font-size: 64px;
+		color: #1A393A;
+	}
+
+	.boton
+	{
+		height: 60px;
+		width: 260px;
+		display: inline-block;
+	    background-color: #1A393A;
+	    border: none;
+	    border-radius: 42px;
+	    color: #F8F8F8;
+	    margin-top: 20px;
+	    margin-left: 8%;
+	    padding-top: 3px;
+	    text-align: center;
+	    display: inline-block;
+	    font-size: 32px;
+	    cursor: pointer;
+	    opacity: 1;
+	    transition: 0.3s;
+	    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	}
+
+	.boton:hover
+	{
+	  	opacity: 0.8;
+	}
+	    
+	.boton:active
+	{
+	    opacity: 1;
+	    transform: translateY(4px);
+	}
+
+	.nuestro-equipo-contenido
+	{
+		height: 1080px;
+		width: 35%;
+		float: left;
+		background-color: #F8F8F8;
+		
+	}
+
+	.nuestro-equipo-contenido-biografia
+	{
+		height: 1080px;
+		width: 100%;
+		background-color: #F8F8F8;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 80px;
+		overflow-y: scroll;
+	}
+
+	.nuestro-equipo-contenido-experiencia
+	{
+		height: 1080px;
+		width: 100%;
+		background-color: #F8F8F8;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 80px;
+		overflow-y: scroll;
+	}
+
+	.titulo
+	{	
+		margin-top: 20%;
+		text-align: left;
+		font-family: futuraBook;
+		font-size: 74px;
+		color: #DBB063;
+	}
+
+	.texto
+	{
+		text-align: left;
+		font-size: 32px;
+		color: black;
+	}
+}
+/*********		Desktops	***********/
+@media (min-width: 1200px) and (max-width: 1599px)
+{
+	.nuestro-equipo-abogado-mobile
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado-mobile-imagen
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado-linea
+	{
+		display: none; 
+	}
+	.nuestro-equipo-abogado-linea-linea
+	{
+		display: none;
+	}
+	.nombre-mobile
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado
+	{
+		height: 900px;
+		width: 38%;
+		background-image: url(../img/PV_2.jpg);
+		background-size: 100% 100%;
+		float: left; 
+		background-color: #555;
+	}
+
+	.nuestro-equipo-controladores
+	{
+		height: 900px;
+		width: 27%;
+		float: left;
+		background-color: #F8F8F8;
+		padding-top: 60px;
+	}
+
+	.nuestro-equipo-controladores-linea
+	{
+		height: 100%;
+		width: 30%;
+		float: left;
+		padding-top: 35%;
+		padding-left: 5%; 
+		background-color: #F8F8F8 
+	}
+
+	.nuestro-equipo-controladores-linea-linea
+	{
+		width: 100%;
+		border-top: 2px solid black;
+		border-color: #DBB063;
+	}
+
+	.nuestro-equipo-controladores-controles
+	{
+		height: 100%;
+		width: 70%;
+		float: left;
+		background-color: #F8F8F8 
+	}
+
+	.nombre
+	{
+		margin-top: 37%;
+		padding-left: 8%;
+		line-height: 48px;
+		font-family: futuraBook;
+		font-size: 48px;
+		color: #1A393A;
+	}
+
+	.boton
+	{
+		height: 50px;
+		width: 208px;
+		display: inline-block;
+	    background-color: #1A393A;
+	    border: none;
+	    border-radius: 42px;
+	    color: #F8F8F8;
+	    margin-top: 20px;
+	    margin-left: 8%;
+	    padding-top: 3px;
+	    text-align: center;
+	    display: inline-block;
+	    font-size: 24px;
+	    cursor: pointer;
+	    opacity: 1;
+	    transition: 0.3s;
+	    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	}
+
+	.boton:hover
+	{
+	  	opacity: 0.8;
+	}
+	    
+	.boton:active
+	{
+	    opacity: 1;
+	    transform: translateY(4px);
+	}
+
+	.nuestro-equipo-contenido
+	{
+		height: 900px;
+		width: 35%;
+		float: left;
+		background-color: #F8F8F8;
+	}
+
+	.nuestro-equipo-contenido-biografia
+	{
+		height: 900px;
+		width: 100%;
+		background-color: #F8F8F8;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 60px;
+		overflow-y: scroll;
+	}
+
+	.nuestro-equipo-contenido-experiencia
+	{
+		height: 900px;
+		width: 100%;
+		background-color: #F8F8F8;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 60px;
+		overflow-y: scroll;
+	}
+
+	.titulo
+	{	
+		margin-top: 20%;
+		text-align: left;
+		font-family: futuraBook;
+		font-size: 58px;
+		color: #DBB063;
+	}
+
+	.texto
+	{
+		text-align: left;
+		font-size: 24px;
+		color: black;
+	}
+}
+/************	Laptops	 ***********/
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+	.nuestro-equipo-abogado-mobile
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado-mobile-imagen
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado-linea
+	{
+		display: none; 
+	}
+	.nuestro-equipo-abogado-linea-linea
+	{
+		display: none;
+	}
+	.nombre-mobile
+	{
+		display: none;
+	}
+	.nuestro-equipo-abogado
+	{
+		height: 800px;
+		width: 38%;
+		background-image: url(../img/PV_2.jpg);
+		background-size: 100% 100%;
+		float: left; 
+		background-color: #555;
+	}
+
+	.nuestro-equipo-controladores
+	{
+		height: 800px;
+		width: 27%;
+		float: left;
+		background-color: #F8F8F8;
+		padding-top: 60px;
+	}
+
+	.nuestro-equipo-controladores-linea
+	{
+		height: 100%;
+		width: 30%;
+		float: left;
+		padding-top: 35%;
+		padding-left: 5%; 
+		background-color: #F8F8F8 
+	}
+
+	.nuestro-equipo-controladores-linea-linea
+	{
+		width: 100%;
+		border-top: 2px solid black;
+		border-color: #DBB063;
+	}
+
+	.nuestro-equipo-controladores-controles
+	{
+		height: 100%;
+		width: 70%;
+		float: left;
+		background-color: #F8F8F8 
+	}
+
+	.nombre
+	{
+		margin-top: 37%;
+		padding-left: 8%;
+		line-height: 48px;
+		font-family: futuraBook;
+		font-size: 44px;
+		color: #1A393A;
+	}
+
+	.boton
+	{
+		height: 45px;
+		width: 160px;
+		display: inline-block;
+	    background-color: #1A393A;
+	    border: none;
+	    border-radius: 42px;
+	    color: #F8F8F8;
+	    margin-top: 20px;
+	    margin-left: 8%;
+	    padding-top: 4px;
+	    text-align: center;
+	    display: inline-block;
+	    font-size: 22px;
+	    cursor: pointer;
+	    opacity: 1;
+	    transition: 0.3s;
+	    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	}
+
+	.boton:hover
+	{
+	  	opacity: 0.8;
+	}
+	    
+	.boton:active
+	{
+	    opacity: 1;
+	    transform: translateY(4px);
+	}
+
+	.nuestro-equipo-contenido
+	{
+		height: 800px;
+		width: 35%;
+		float: left;
+		background-color: #F8F8F8;
+	}
+
+	.nuestro-equipo-contenido-biografia
+	{
+		height: 800px;
+		width: 100%;
+		background-color: #F8F8F8;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 60px;
+		overflow-y: scroll;
+	}
+
+	.nuestro-equipo-contenido-experiencia
+	{
+		height: 800px;
+		width: 100%;
+		background-color: #F8F8F8;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 60px;
+		overflow-y: scroll;
+	}
+
+	.titulo
+	{	
+		margin-top: 23%;
+		text-align: left;
+		font-family: futuraBook;
+		font-size: 52px;
+		color: #DBB063;
+	}
+
+	.texto
+	{
+		text-align: left;
+		font-size: 22px;
+		color: black;
+	}
+}

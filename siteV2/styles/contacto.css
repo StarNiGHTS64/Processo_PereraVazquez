@@ -1,0 +1,181 @@
+/**************Scroll***********/
+::-webkit-scrollbar {
+   	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+     
+/* Handle */
+::-webkit-scrollbar-thumb {
+  	background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+@font-face {
+	font-family: futuraBook;
+	src: url(img/Futura Book.otf);
+}
+* 
+{
+	box-sizing: border-box;
+}
+
+/*********Laptop***********/
+@media (min-width: 992px)
+{
+  .contacto-info
+  {
+    height: 700px;
+    width: 100%;
+    padding-top: 260px;
+    background-color: #F8F8F8;
+    float: left;
+    text-align: center;
+    color: #1A393A;
+  }
+
+  .contacto-info-texto
+  {
+    font-size: 42px;
+  }
+
+  .contacto-info-numero
+  {
+    font-size: 58px;
+    line-height: 52px;
+    font-weight: bold;
+
+  }
+
+  .contacto-info-agendar
+  {
+    font-family: futuraBook;
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: bold;
+  }
+  .phone
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
+  .phone:active
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
+  .phone:hover
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
+  .phone:visited
+  {
+    font-style: none;
+    text-decoration: none;
+    color: #1A393A;
+  }
+  .boton
+  {
+    height: 75px;
+    width: 340px;
+    display: inline-block;
+    background-color: #DBB063;
+    border: none;
+    border-radius: 42px;
+    color: #F8F8F8;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    text-align: center;
+    display: inline-block;
+    font-size: 42px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+  }
+
+  .boton:hover
+  {
+    opacity: 0.8;
+  }
+        
+  .boton:active
+  {
+    opacity: 1;
+    transform: translateY(4px);
+  }
+
+  .contacto-linea
+  {
+    height: 340px;
+    width: 20%;
+    float: left;
+    padding-top: 80px;
+    padding-right: 20px;
+    background-color: #1A393A;
+  }
+
+  .contacto-linea-linea
+  {
+    width: 100%;
+    border-top: 2px solid black;
+    border-color: #DBB063;
+  }
+
+  .contacto-direccion
+  {
+    height: 340px;
+    width: 20%;
+    color: #F8F8F8;
+    background-color: #1A393A;
+    padding-top: 50px;
+    padding-left: 5px;
+    text-align: left;
+    float: left;
+  }
+
+  .contacto-direccion-titulo
+  {
+    font-size: 48px;
+    font-family: futuraBook;
+  }
+  .contacto-direccion-direccion
+  {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .contacto-direccion-subdireccion
+  {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .contacto-mapa
+  {
+    height: 340px;
+    width: 60%;
+    background-color: #1A393A;
+    float: left;
+  }
+  .contacto-mapa-mapa
+  {
+    height: 80%;
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 4%;
+    border-radius: 18px;
+  }
+}
