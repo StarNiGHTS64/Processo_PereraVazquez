@@ -717,19 +717,19 @@ button:focus {
 }
 
 .practice-item:hover {
-  background-color: #998056;
+  background-color: #689689;
   -webkit-transform: translate(0, -10px);
           transform: translate(0, -10px);
 }
 
 .practice-item:hover .practice-icon:before {
-  background-color: #66573e;
+  background-color: #AA0000;
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
 }
 
 .practice-item:hover .practice-icon:after {
-  background-color: #86714d;
+  background-color: #0000AA;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
@@ -1663,7 +1663,7 @@ footer .footer-item .footer-logo a {
 
 footer .footer-item .footer-logo a img {
   margin-bottom: 35px;
-  width: 100px;
+  width: 300px;
 }
 
 footer .footer-item .footer-logo p {
@@ -1687,7 +1687,7 @@ footer .footer-item .footer-logo ul li:last-child {
 
 footer .footer-item .footer-logo ul li a {
   font-size: 20px;
-  color: #fff;
+  color: #F8F8F8;
 }
 
 footer .footer-item .footer-logo ul li a:hover {
@@ -1761,12 +1761,14 @@ footer .footer-item .footer-find ul li i {
 }
 
 footer .footer-item .footer-find ul li:last-child {
+
   margin-bottom: 0;
 }
 
 footer .footer-item .footer-find ul li a {
   display: inline-block;
   color: #F8F8F8;
+  font-size: 14px;
 }
 
 footer .footer-item .footer-find ul li a:hover {

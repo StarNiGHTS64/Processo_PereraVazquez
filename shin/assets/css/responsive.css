@@ -23,7 +23,7 @@
     width: 80px;
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
-    color: #b69d74;
+    color: #1A393A;
   }
   .mobile-nav nav .navbar-nav {
     height: 350px;
@@ -72,10 +72,10 @@
     }
   }
   .banner-bottom {
-    border-top: 5px solid #b69d7459;
-    border-bottom: 5px solid #b69d7459;
-    border-left: 5px solid #b69d7459;
-    border-right: 5px solid #b69d7459;
+    border-top: 5px solid #1A393A59;
+    border-bottom: 5px solid #1A393A59;
+    border-left: 5px solid #1A393A59;
+    border-right: 5px solid #1A393A59;
     bottom: -40px;
     left: 20px;
   }
@@ -107,7 +107,7 @@
   }
   .help-left:before {
     left: -35px;
-    border: 10px solid #b69d74;
+    border: 10px solid #1A393A;
   }
   .help-item .help-right {
     max-width: 100%;
@@ -212,7 +212,7 @@
     padding-top: 50px;
   }
   .expertise-image:before {
-    border: 5px solid #b69d74;
+    border: 5px solid #1A393A;
   }
   /*-- End Expertise --*/
   /*-- Portfolio --*/
@@ -579,7 +579,7 @@
     top: 2px;
   }
   .page-title-text .page-title-btn a {
-    border: 2px solid #b69d74;
+    border: 2px solid #1A393A;
     padding: 9px 20px;
     font-size: 13px;
   }
@@ -774,7 +774,7 @@
     left: 0;
     top: 0;
     z-index: -1;
-    border: 10px solid #b69d74;
+    border: 10px solid #1A393A;
     background-color: #373535;
   }
   /*-- End Case Details Tab --*/
@@ -1063,7 +1063,7 @@
     width: 75px;
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
-    color: #b69d74;
+    color: #1A393A;
   }
   .mobile-nav nav .navbar-nav {
     height: 350px;
@@ -1109,10 +1109,10 @@
     }
   }
   .banner-bottom {
-    border-top: 15px solid #b69d7459;
-    border-bottom: 15px solid #b69d7459;
-    border-left: 15px solid #b69d7459;
-    border-right: 15px solid #b69d7459;
+    border-top: 15px solid #1A393A59;
+    border-bottom: 15px solid #1A393A59;
+    border-left: 15px solid #1A393A59;
+    border-right: 15px solid #1A393A59;
     bottom: -55px;
     left: 20px;
   }
@@ -1131,7 +1131,7 @@
     padding-bottom: 45px;
   }
   .help-left:before {
-    border: 15px solid #b69d74;
+    border: 15px solid #1A393A;
   }
   .help-item .help-right {
     max-width: 100%;
@@ -1555,7 +1555,7 @@
     font-size: 15px;
   }
   .page-title-text .page-title-btn a {
-    border: 2px solid #b69d74;
+    border: 2px solid #1A393A;
     padding: 11px 22px;
     font-size: 14px;
   }
@@ -1627,7 +1627,7 @@
   }
   .attor-details-item .attor-details-left .attor-social ul li a {
     display: block;
-    color: #b69d74;
+    color: #1A393A;
     font-size: 18px;
   }
   .attor-details-item .attor-details-left .attor-social ul li a:hover {
