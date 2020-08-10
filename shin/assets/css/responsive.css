@@ -20,7 +20,7 @@
   /*----- Home Page 1 -----*/
   /*-- Navbar --*/
   .mobile-nav .logo {
-    width: 80px;
+    width: 30px;
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
     color: #1A393A;
@@ -368,7 +368,7 @@
   /*-- Footer --*/
   footer .footer-item .footer-logo a img {
     margin-bottom: 25px;
-    width: 90px;
+    width: 300px;
   }
   footer .footer-item .footer-logo p {
     margin-bottom: 20px;
@@ -1060,7 +1060,7 @@
   /*----- Home Page 1 -----*/
   /*-- Navbar --*/
   .mobile-nav .logo {
-    width: 75px;
+    width: 35px;
   }
   .mobile-nav.mean-container .mean-nav ul li a.active {
     color: #1A393A;
@@ -1329,6 +1329,7 @@
   /*-- Footer --*/
   footer .footer-item .footer-logo a img {
     margin-bottom: 25px;
+    width: 300px;
   }
   footer .footer-item .footer-logo p {
     margin-bottom: 20px;
