@@ -112,14 +112,15 @@ button:focus {
 }
 
 .main-nav nav .navbar-brand {
+  height: 110px;
   width: 150px;
   position: absolute;
-  top: 46px;
+  top: 30px;
   left: -10px;
 }
 
 .main-nav nav .navbar-nav {
-  margin-left: auto;
+  margin-left: 200px;
   margin-right: auto;
 }
 
@@ -253,8 +254,7 @@ button:focus {
 }
 
 .menu-shrink {
-  padding-top: 8px;
-  padding-bottom: 8px;
+
 }
 
 /*-- End Navbar --*/
@@ -1076,7 +1076,6 @@ button:focus {
 }
 
 .team-item .team-inner {
-  border: 1px solid #1A393A;
   background-color: #F8F8F8;
   text-align: center;
   -webkit-box-shadow: 0px 0px 15px 0px #ddd;

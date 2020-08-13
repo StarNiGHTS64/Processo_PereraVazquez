@@ -120,6 +120,11 @@
   .help-item .help-right p {
     margin-bottom: 15px;
   }
+  .help-item .help-right h6 {
+  color: #868686;
+  font-family: futuraBook;
+  font-style: italic;
+  }
   .help-item .help-right .help-inner-left {
     width: 100%;
   }
@@ -488,6 +493,7 @@
     text-align: center;
   }
   .slider-text h1 {
+    font-family: futuraBook;
     font-size: 21px;
     margin-bottom: 20px;
   }
@@ -499,6 +505,7 @@
     margin-bottom: 5px;
   }
   .slider-text p {
+    font-family: futuraBook;
     margin-bottom: 40px;
     font-size: 15px;
   }

@@ -149,7 +149,7 @@ a.meanmenu-reveal {
     padding-bottom: 15px;
     width: 100%;
     z-index: 999;
-    height: auto;
+    height: 110px;
 }
 .mean-nav .dropdown-toggle::after {
 	display: none;
