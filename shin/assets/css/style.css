@@ -1078,8 +1078,8 @@ button:focus {
 .team-item .team-inner {
   background-color: #F8F8F8;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 15px 0px #ddd;
-          box-shadow: 0px 0px 15px 0px #ddd;
+  -webkit-box-shadow: 0px 0px 15px 0px #333;
+          box-shadow: 0px 0px 15px 0px #333;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
