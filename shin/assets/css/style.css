@@ -34,6 +34,10 @@ This files table contents are outlined below>>>>>
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,600,700,900&display=swap");
 /*-- Default CSS --*/
+@font-face {
+  font-family: futuraBook;
+  src: url(img/Futura Book.otf);
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #F8F8F8;
@@ -108,7 +112,10 @@ button:focus {
 }
 
 .main-nav nav .navbar-brand {
-  width: 100px;
+  width: 150px;
+  position: absolute;
+  top: 46px;
+  left: -10px;
 }
 
 .main-nav nav .navbar-nav {
@@ -121,7 +128,7 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #1A393A;
+  color: #DBB063;
   letter-spacing: 1px;
 }
 
@@ -130,7 +137,7 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a {
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .main-nav nav .navbar-nav .nav-item a {
@@ -156,11 +163,11 @@ button:focus {
   opacity: 0;
   -webkit-animation: a-one 5s linear infinite;
           animation: a-one 5s linear infinite;
-  background-color: #1A393A;
+  background-color: #DBB063;
 }
 
 .main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a:focus, .main-nav nav .navbar-nav .nav-item a.active {
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .main-nav nav .navbar-nav .nav-item a:hover:before, .main-nav nav .navbar-nav .nav-item a:focus:before, .main-nav nav .navbar-nav .nav-item a.active:before {
@@ -379,7 +386,7 @@ button:focus {
   text-align: center;
   font-size: 50px;
   display: inline-block;
-  background-color: #1A393A;
+  background-color: #DBB063;
 }
 
 .banner-bottom ul li:last-child {
@@ -393,14 +400,14 @@ button:focus {
 .banner-bottom ul li:last-child span {
   font-size: 14px;
   margin-bottom: 8px;
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .banner-bottom ul li:last-child p {
   margin-bottom: 0;
   font-weight: 600;
   font-size: 18px;
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .banner-bottom ul li:last-child img {
@@ -472,7 +479,7 @@ button:focus {
   z-index: -1;
   -webkit-animation: 10s help-animation linear infinite;
           animation: 10s help-animation linear infinite;
-  border: 25px solid #1A393A;
+  border: 25px solid #DBB063;
   background-color: transparent;
 }
 
@@ -558,6 +565,15 @@ button:focus {
   margin-bottom: 25px;
 }
 
+.help-item .help-right h6 {
+  color: #868686;
+  font-size: 18px;
+  font-family: futuraBook;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .help-item .help-right .help-inner-left {
   width: 49%;
   display: inline-block;
@@ -582,7 +598,7 @@ button:focus {
 }
 
 .help-item .help-right .help-inner-left ul li i {
-  color: #1A393A;
+  color: #DBB063;
   margin-right: 10px;
   font-size: 25px;
   position: relative;
@@ -613,7 +629,7 @@ button:focus {
 }
 
 .help-item .help-right .help-inner-right ul li i {
-  color: #1A393A;
+  color: #DBB063;
   margin-right: 10px;
   font-size: 25px;
   position: relative;
@@ -625,12 +641,13 @@ button:focus {
   margin-bottom: 30px;
 }
 
+
 .cmn-btn {
   display: inline-block;
   color: #F8F8F8;
-  background-color: #1A393A;
+  background-color: #DBB063;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   padding: 14px 30px;
   position: relative;
   z-index: 1;
@@ -688,15 +705,16 @@ button:focus {
 
 .section-title span {
   display: block;
-  color: #1A393A;
+  color: #DBB063;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .section-title h2 {
   font-weight: 700;
-  font-size: 38px;
+  font-size: 52px;
   font-family: "Playfair Display", serif;
   margin-bottom: 0;
 }
@@ -895,21 +913,26 @@ button:focus {
 
 .expertise-item ul li .expertise-icon {
   position: absolute;
+  font-size: 30px;
   top: 0;
   left: 0;
 }
 
 .expertise-item ul li .expertise-icon i {
-  color: #1A393A;
-  font-size: 45px;
+  color: #DBB063;
+  font-size: 65px;
   position: absolute;
-  left: 22px;
-  top: 22px;
+  left: 35px;
+  top: 24px;
+}
+.expertise-item ul li .expertise-icon img {
+  height: 145px; 
+  width: 129px;
 }
 
 .expertise-item ul li h3 {
   padding-left: 135px;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
   margin-bottom: 18px;
@@ -918,7 +941,8 @@ button:focus {
 
 .expertise-item ul li p {
   padding-left: 135px;
-  font-size: 16px;
+  font-size: 26px;
+  line-height: 32px;
   margin-bottom: 0;
 }
 
@@ -926,7 +950,9 @@ button:focus {
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .expertise-image:before {
@@ -939,7 +965,7 @@ button:focus {
   left: 0;
   top: 0;
   z-index: -1;
-  border: 10px solid #1A393A;
+  border: 10px solid #DBB063;
   background-color: #373535;
 }
 
@@ -1050,6 +1076,7 @@ button:focus {
 }
 
 .team-item .team-inner {
+  border: 1px solid #1A393A;
   background-color: #F8F8F8;
   text-align: center;
   -webkit-box-shadow: 0px 0px 15px 0px #ddd;
@@ -1100,7 +1127,7 @@ button:focus {
 
 .team-item .team-inner h3 {
   margin-bottom: 4px;
-  padding-top: 25px;
+  padding-top: 15px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   font-family: "Playfair Display", serif;
@@ -1109,12 +1136,13 @@ button:focus {
 .team-item .team-inner h3 a {
   color: #333333;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 10px;
 }
 
 .team-item .team-inner span {
   display: block;
-  color: #1A393A;
+  color: #DBB063;
   font-size: 14px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -1140,11 +1168,11 @@ button:focus {
 }
 
 .team-item:hover .team-inner h3 a:hover {
-  color: #333333;
+  color: #868686;
 }
 
 .team-item:hover .team-inner span {
-  color: #333333;
+  color: #DBB063;
 }
 
 /*-- End Team --*/
@@ -1155,7 +1183,7 @@ button:focus {
 }
 
 .location-bg {
-  background-image: url("../img/home-one/location-bg.jpg");
+  background-image: url("../img/home-one/location-bgb.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1327,7 +1355,7 @@ button:focus {
   font-weight: 600;
   font-size: 16px;
   color: #F8F8F8;
-  background-color: #1A393A;
+  background-color: #DBB063;
   padding: 16px 40px;
   border: 0;
   position: relative;
@@ -1555,7 +1583,7 @@ button:focus {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #212222;
+  background-color: #1A393A;
   position: relative;
   top: -100px;
   padding-top: 50px;
@@ -1572,7 +1600,7 @@ button:focus {
 
 .newsletter-area h2 {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 35px;
   font-family: "Playfair Display", serif;
   color: #F8F8F8;
   margin-bottom: 30px;
@@ -1580,13 +1608,13 @@ button:focus {
 
 .newsletter-area .newsletter-form {
   position: relative;
-  max-width: 490px;
+  max-width: 500px;
 }
 
 .newsletter-area .newsletter-form .form-control {
   height: 46px;
   border-radius: 0;
-  border: 1px solid #1A393A;
+  border: 1px solid #DBB063;
   background-color: transparent;
   padding-left: 20px;
   color: #F8F8F8;
@@ -1625,7 +1653,7 @@ button:focus {
   right: 0;
   color: #F8F8F8;
   border-radius: 0;
-  padding: 11px 20px;
+  padding: 11px 40px;
 }
 
 .btn.disabled, .btn:disabled {
@@ -1691,7 +1719,7 @@ footer .footer-item .footer-logo ul li a {
 }
 
 footer .footer-item .footer-logo ul li a:hover {
-  color: #1A393A;
+  color: #DBB063;
 }
 
 footer .footer-item .footer-service h3 {
@@ -1725,7 +1753,7 @@ footer .footer-item .footer-service ul li a {
 
 footer .footer-item .footer-service ul li a:hover {
   letter-spacing: 1px;
-  color: #1A393A;
+  color: #DBB063;
 }
 
 footer .footer-item .footer-service ul li a i {
@@ -1749,15 +1777,16 @@ footer .footer-item .footer-find ul {
 footer .footer-item .footer-find ul li {
   list-style-type: none;
   display: block;
+  font-size: 15px;
   margin-bottom: 20px;
 }
 
 footer .footer-item .footer-find ul li i {
-  font-size: 23px;
+  font-size: 20px;
   margin-right: 6px;
   position: relative;
   top: 2px;
-  color: #1A393A;
+  color: #DBB063;
 }
 
 footer .footer-item .footer-find ul li:last-child {
@@ -1768,12 +1797,12 @@ footer .footer-item .footer-find ul li:last-child {
 footer .footer-item .footer-find ul li a {
   display: inline-block;
   color: #F8F8F8;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 footer .footer-item .footer-find ul li a:hover {
-  color: #1A393A;
-  letter-spacing: 1px;
+  color: #DBB063;
+  letter-spacing: 0.5px;
 }
 
 footer .copyright-area {
@@ -1932,7 +1961,7 @@ footer .copyright-area .copyright-right {
   z-index: -1;
   -webkit-animation: 10s help-animation-two linear infinite;
           animation: 10s help-animation-two linear infinite;
-  border: 25px solid #1A393A;
+  border: 25px solid #DBB063;
   background-color: transparent;
 }
 
@@ -1945,14 +1974,14 @@ footer .copyright-area .copyright-right {
 /*-- End Practice --*/
 /*-- Expertise --*/
 .expertise-area-two .expertise-item ul li {
-  border: 2px solid #1A393A;
+  border: 2px solid #DBB063;
   padding: 20px 20px 25px 35px;
   margin-bottom: 30px;
 }
 
 .expertise-area-two .expertise-item ul li .expertise-icon {
-  top: 35px;
-  left: 45px;
+  top: 90px;
+  left: 16px;
 }
 
 /*-- End Expertise --*/
@@ -1978,7 +2007,7 @@ footer .copyright-area .copyright-right {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #333333;
+  background-color: #33333322;
   opacity: .95;
 }
 
@@ -1989,30 +2018,31 @@ footer .copyright-area .copyright-right {
 .slider-text h1 {
   margin-bottom: 0;
   color: #F8F8F8;
-  font-family: "Playfair Display", serif;
+  font-family: "futuraBook";
   font-weight: 900;
-  font-size: 46px;
+  font-size: 64px;
   display: inline-block;
+  margin-top: 50px;
   margin-bottom: 25px;
 }
 
 .slider-text p {
   margin-bottom: 37px;
-  font-weight: 900;
-  font-size: 24px;
+  font-style: italic;
+  font-size: 38px;
   font-family: "Playfair Display", serif;
 }
 
 .slider-text a {
   display: inline-block;
   color: #F8F8F8;
-  border: 3px solid #1A393A;
-  padding: 18px 25px;
+  border: none;
+  padding: 22px 50px;
 }
 
 .slider-text a i {
   display: inline-block;
-  font-size: 20px;
+  font-size: 32px;
   position: relative;
   top: 1px;
   left: 5px;
@@ -2093,7 +2123,7 @@ footer .copyright-area .copyright-right {
 }
 
 .home-slider.owl-theme .owl-dots .owl-dot.active span {
-  background: #F8F8F8;
+  background: #DBB063;
   width: 30px;
 }
 
@@ -2108,7 +2138,7 @@ footer .copyright-area .copyright-right {
 /*-- End Home Slider --*/
 /*-- Slider Bottom --*/
 .slider-bottom-area .slider-bottom-wrap {
-  background-color: #1A393A59;
+  background-color: #DBB06359;
   padding-top: 45px;
   padding-bottom: 15px;
   padding-left: 45px;
@@ -2154,7 +2184,7 @@ footer .copyright-area .copyright-right {
 }
 
 .title-img-one {
-  background-image: url("../img/about/1.jpg");
+  background-image: url("../img/about/1b.jpg");
 }
 
 .page-title-area {
@@ -2216,13 +2246,13 @@ footer .copyright-area .copyright-right {
 }
 
 .page-title-text ul li a:hover {
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .page-title-text .page-title-btn a {
   display: inline-block;
   color: #F8F8F8;
-  border: 3px solid #1A393A;
+  border: 3px solid #DBB063;
   padding: 12px 28px;
   font-size: 15px;
 }
@@ -2238,7 +2268,7 @@ footer .copyright-area .copyright-right {
 }
 
 .page-title-text .page-title-btn a:hover {
-  background-color: #1A393A;
+  background-color: #DBB063;
 }
 
 .page-title-text .page-title-btn a:hover i {
@@ -2281,7 +2311,7 @@ footer .copyright-area .copyright-right {
 }
 
 .about-item .about-video-wrap a {
-  color: #1A393A;
+  color: #DBB063;
   position: absolute;
   top: 46%;
   left: 46%;
@@ -2297,7 +2327,7 @@ footer .copyright-area .copyright-right {
 
 .about-item .about-video-wrap a:hover {
   color: #F8F8F8;
-  background-color: #1A393A;
+  background-color: #DBB063;
 }
 
 .about-item .about-content {
@@ -2363,7 +2393,7 @@ footer .copyright-area .copyright-right {
 
 .about-item .about-legal ul li .banner-bottom ul li i {
   line-height: 90px;
-  color: #1A393A;
+  color: #DBB063;
   background-color: #464544;
 }
 
@@ -2379,7 +2409,7 @@ footer .copyright-area .copyright-right {
 
 .about-item .about-information h2 span {
   display: inline-block;
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .about-item .about-information p {
@@ -2440,7 +2470,7 @@ footer .copyright-area .copyright-right {
 
 .attor-details-item .attor-details-left .attor-social ul li a {
   display: block;
-  color: #1A393A;
+  color: #DBB063;
   font-size: 18px;
 }
 
@@ -2481,12 +2511,12 @@ footer .copyright-area .copyright-right {
 }
 
 .attor-details-item .attor-details-left .attor-social-details ul li a:hover {
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .attor-details-item .attor-details-left .attor-social-details ul li i {
   display: inline-block;
-  color: #1A393A;
+  color: #DBB063;
   font-size: 18px;
   margin-right: 5px;
 }
@@ -2762,7 +2792,7 @@ footer .copyright-area .copyright-right {
 .case-details-tab .case-details-tab-item .nav-pills .nav-link {
   border-radius: 0;
   color: #F8F8F8;
-  border: 1px solid #1A393A;
+  border: 1px solid #DBB063;
   width: 150px;
   text-align: center;
   margin-right: 10px;
@@ -3690,7 +3720,7 @@ footer .copyright-area .copyright-right {
 }
 
 .contact-form-four .location-item {
-  border: 1px solid #1A393A;
+  border: 1px solid #DBB063;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
@@ -3706,14 +3736,14 @@ footer .copyright-area .copyright-right {
 }
 
 .contact-form-four .location-item ul li a:hover {
-  color: #1A393A;
+  color: #DBB063;
 }
 
 .contact-form-four .location-item .location-icon i {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border: 1px solid #1A393A;
+  border: 1px solid #DBB063;
   border-radius: 50%;
   text-align: center;
   font-size: 20px;

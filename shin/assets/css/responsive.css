@@ -107,7 +107,7 @@
   }
   .help-left:before {
     left: -35px;
-    border: 10px solid #1A393A;
+    border: 10px solid #DBB063;
   }
   .help-item .help-right {
     max-width: 100%;
@@ -212,7 +212,7 @@
     padding-top: 50px;
   }
   .expertise-image:before {
-    border: 5px solid #1A393A;
+    border: 5px solid #DBB063;
   }
   /*-- End Expertise --*/
   /*-- Portfolio --*/
@@ -1131,7 +1131,7 @@
     padding-bottom: 45px;
   }
   .help-left:before {
-    border: 15px solid #1A393A;
+    border: 15px solid #DBB063;
   }
   .help-item .help-right {
     max-width: 100%;
