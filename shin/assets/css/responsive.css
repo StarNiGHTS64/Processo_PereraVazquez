@@ -169,7 +169,10 @@
     margin-bottom: 7px;
   }
   .section-title h2 {
-    font-size: 22px;
+    font-size: 32px;
+  }
+  .section-title h3 {
+    font-size: 24px;
   }
   .practice-item {
     padding: 30px 15px;
@@ -569,12 +572,18 @@
   .page-title-area-three .page-title-text {
     margin-top: 50px;
   }
+
   .page-title-area {
     height: 350px;
   }
   .page-title-text {
     margin-top: 70px;
   }
+  .page-title-text p{
+    font-size: 14px;
+    width: 90%;
+  }
+
   .page-title-text h2 {
     font-size: 25px;
     margin-bottom: 15px;
@@ -900,6 +909,7 @@
     margin-bottom: 15px;
   }
   .practice-details-item .practice-details-content ul li {
+    font-size: 16px;
     margin-bottom: 8px;
   }
   .practice-details-item .blog-details-category {
@@ -1187,7 +1197,10 @@
     margin-bottom: 6px;
   }
   .section-title h2 {
-    font-size: 25px;
+    font-size: 48px;
+  }
+  .section-title h3 {
+    font-size: 38px;
   }
   .practice-item {
     padding: 30px 20px;
@@ -1806,6 +1819,9 @@
   }
   .practice-details-item .practice-details-content {
     margin-bottom: 40px;
+  }
+  .practice-details-item .practice-details-content ul li{
+    font-size: 24px;
   }
   .practice-details-item .practice-details-content .section-title {
     margin-bottom: 25px;
