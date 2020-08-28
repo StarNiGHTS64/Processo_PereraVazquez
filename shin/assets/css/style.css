@@ -253,6 +253,54 @@ button:focus {
   opacity: 1;
 }
 
+.side-nav2 a {
+  display: inline-block;
+  font-size: 16px;
+  color: #F8F8F8;
+  border: 1px solid #DBB063;
+  padding: 12px 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.side-nav2 a:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  background-color: #DBB063;
+}
+
+.side-nav2 a:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  background-color: #DBB063;
+}
+
+.side-nav2 a:hover:before {
+  width: 50%;
+  opacity: 1;
+}
+
+.side-nav2 a:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+
 .menu-shrink {
 
 }
@@ -1907,7 +1955,7 @@ footer .copyright-area .copyright-right {
 /*-- End Counter --*/
 /*-- Help --*/
 .help-area-two {
-  background-color: #fefaf3;
+  background-color: #212529;
   padding-top: 0;
 }
 
@@ -3277,7 +3325,7 @@ footer .copyright-area .copyright-right {
   display: block;
   color: #333333;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .blog-details-category ul li i {
@@ -3342,7 +3390,7 @@ footer .copyright-area .copyright-right {
   list-style-position: outside;
   margin-left: 1em;
   /*display: block;*/
-  font-size: 28px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #4a4a4a;
   margin-bottom: 5px;
